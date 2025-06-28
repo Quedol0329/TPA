@@ -1,0 +1,29 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "TPA",
+    "description": "TPA for Quedol's server",
+    "uuid": "dad240f2-75aa-4ef3-a79a-5c05f3b13236",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 21, 80]
+  },
+  "modules": [
+    {
+      "description": "My Resource Pack",
+      "type": "data",
+      "uuid": "e9e30558-31c3-4c7a-8c3d-23c148683b75",
+      "version": [1, 0, 0]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "d31dd108-feb6-4687-8487-ae2eb84025af",
+      "version": [1, 0, 0]
+    }
+  ],
+  "metadata": {
+    "generated_with": {
+      "mctoolsweb": ["0.11.1"]
+    }
+  }
+}

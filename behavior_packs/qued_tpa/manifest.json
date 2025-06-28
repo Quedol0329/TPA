@@ -1,0 +1,35 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "TPA",
+    "description": "TPA for Quedol's server",
+    "uuid": "c7a8698b-2924-4278-b1ba-3caf46bf5493",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 21, 80]
+  },
+  "modules": [
+    {
+      "description": "Script resources",
+      "language": "javascript",
+      "type": "script",
+      "uuid": "be2446c8-b411-4b89-ba38-55c97111856d",
+      "version": [1, 0, 0],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.1.0-beta"
+    },
+    {
+      "uuid": "40f2fa36-0b0b-4fc4-85f4-c9ca60676bb4",
+      "version": [1, 0, 0]
+    }
+  ],
+  "metadata": {
+    "generated_with": {
+      "mctoolsweb": ["0.11.1"]
+    }
+  }
+}
